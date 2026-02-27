@@ -1,0 +1,12 @@
+prefix=s:/notes/venv/Library
+exec_prefix=s:/notes/venv/Library
+libdir=s:/notes/venv/Library/lib
+includedir=s:/notes/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
