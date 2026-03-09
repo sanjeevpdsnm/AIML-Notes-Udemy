@@ -15,4 +15,4 @@ def contact():
     return "THIS IS A CONTACT PAGE"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debhg=run)
